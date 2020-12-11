@@ -1,7 +1,7 @@
 :root {
-  --color-primary: rgb(240, 186, 37);
+  --color-primary: #70aed2;
   --color-primary-light: #fada82;
-  --color-primary-dark: #f5b504;
+  --color-primary-dark: #347ba5;
 
   --color-secondary-dark: rgba(7, 27, 82);
   --color-secondary-light: rgba(0, 128, 128);
@@ -47,6 +47,7 @@ p {
 .studio-title {
   font-family: "Allura", cursive;
   font-size: 7rem;
+  color: var(--color-primary-dark);
 }
 .studio-subtitle {
   font-size: 1.7rem;

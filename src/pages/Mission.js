@@ -1,42 +1,46 @@
 import React from "react";
+import { ImCogs } from "react-icons/im";
+import { FaThumbsUp, FaHandshake } from "react-icons/fa";
+import { TiThumbsUp } from "react-icons/ti";
+
 import SectionTitle from "../components/SectionTitle";
 import "./Mission.css";
 
 const Mission = () => {
   return (
-    <section class="p-5 mission">
-      <div class="container-fluid">
+    <section className="p-5 mission">
+      <div className="container-fluid">
         <SectionTitle
           titleName="Our Mission"
           text="Capturing the moments that captivate your heart"
-          textColor="light"
+          textColor="dark"
         />
 
-        <div class="row my-5">
-          <div class="col-md-4 text-center">
-            <i class="fas fa-cogs fa-5x text-danger mb-4"></i>
-            <h1 class="text-white mb-3">Creativity</h1>
-            <p class="text-muted">
+        <div className="row my-5">
+          <div className="col-md-4 text-center my-5">
+            <ImCogs className="icon-style mb-4" size="5rem" />
+            <h1 className="mb-3 text-muted">Creativity</h1>
+            <p className="text-muted">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic
               perferendis dolor vitae sed, quae officiis exercitationem quaerat?
               Fugit excepturi exercitationem inventore, repellendus architecto
               illum!
             </p>
           </div>
-          <div class="col-md-4 text-center">
-            <i class="far fa-thumbs-up fa-5x text-danger mb-4"></i>
-            <h1 class="text-white mb-3">Quality</h1>
-            <p class="text-muted">
+          <div className="col-md-4 text-center my-5">
+            <TiThumbsUp className="icon-style mb-4" size="5rem" />
+            <h1 className="text-muted mb-3">Quality</h1>
+            <p className="text-muted">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic
               perferendis dolor vitae sed, quae officiis exercitationem quaerat?
               Fugit excepturi exercitationem inventore, repellendus architecto
               illum!
             </p>
           </div>
-          <div class="col-md-4 text-center">
-            <i class="far fa-handshake fa-5x text-danger mb-4"></i>
-            <h1 class="text-white mb-3">Experience</h1>
-            <p class="text-muted">
+          <div className="col-md-4 text-center my-5">
+            <FaHandshake className="icon-style mb-4" size="5rem" />
+            <h1 className="text-muted mb-3">Experience</h1>
+            <p className="text-muted">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic
               perferendis dolor vitae sed, quae officiis exercitationem quaerat?
               Fugit excepturi exercitationem inventore, repellendus architecto
@@ -45,18 +49,18 @@ const Mission = () => {
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5 text-center">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-5 text-center">
             <img
               src="images/camera.png"
               width="350"
               class="img-fluid camera-img"
             />
           </div>
-          <div class="col-lg-7 text-white text-lg-right text-center mission-text">
+          <div className="col-lg-7 text-lg-right text-center mission-text">
             <h1>We know what we do</h1>
-            <p class="lead">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               tempora itaque obcaecati voluptas? Perferendis voluptate
               accusantium eum sit deleniti harum, assumenda vitae! Cupiditate

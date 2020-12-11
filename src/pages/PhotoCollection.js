@@ -1,20 +1,17 @@
 import React from "react";
+import SectionTitle from "../components/SectionTitle";
 
 const PhotoCollection = () => {
   return (
     <section class="bg-secondary py-4">
       <div class="container-fluid">
-        <div class="row text-white text-center">
-          <div class="col m-4">
-            <h1 class="display-4 mb-4">Collection</h1>
-            <div class="underline mb-4"></div>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium inventore, sint quisquam fugiat pariatur culpa
-              officia. Eveniet omnis quia tempora.
-            </p>
-          </div>
-        </div>
+        <SectionTitle
+          titleName="Collection"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Accusantium inventore, sint quisquam fugiat pariatur culpa
+          officia. Eveniet omnis quia tempora"
+          textColor="light"
+        />
 
         <div class="row">
           <div class="col-lg-4 col-sm-6 my-5">

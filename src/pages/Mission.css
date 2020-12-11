@@ -1,5 +1,10 @@
-.mission {
+/* .mission {
   background: var(--color-grey-dark-1);
+} */
+
+.icon-style {
+  color: var(--color-primary-dark);
+  font-weight: lighter;
 }
 
 .fromLeft {

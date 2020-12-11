@@ -9,7 +9,7 @@ import Customers from "./pages/Customers";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
-import Navigation from "./pages/Navigation";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
