@@ -1,15 +1,15 @@
 import React from "react";
 
 import "./App.css";
-import HomePage from "./components/HomePage";
-import Mission from "./components/Mission";
-import PhotoCollection from "./components/PhotoCollection";
-import Gallery from "./components/Gallery";
-import Customers from "./components/Customers";
-import Pricing from "./components/Pricing";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
+import HomePage from "./pages/HomePage";
+import Mission from "./pages/Mission";
+import PhotoCollection from "./pages/PhotoCollection";
+import Gallery from "./pages/Gallery";
+import Customers from "./pages/Customers";
+import Pricing from "./pages/Pricing";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
+import Navigation from "./pages/Navigation";
 
 function App() {
   return (

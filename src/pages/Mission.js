@@ -1,20 +1,16 @@
 import React from "react";
+import SectionTitle from "../components/SectionTitle";
+import "./Mission.css";
 
 const Mission = () => {
   return (
     <section class="p-5 mission">
       <div class="container-fluid">
-        <div class="row text-white text-center">
-          <div class="col m-4">
-            <h1 class="display-4 mb-4">Our Mission</h1>
-            <div class="underline mb-4"></div>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium inventore, sint quisquam fugiat pariatur culpa
-              officia. Eveniet omnis quia tempora.
-            </p>
-          </div>
-        </div>
+        <SectionTitle
+          titleName="Our Mission"
+          text="Capturing the moments that captivate your heart"
+          textColor="light"
+        />
 
         <div class="row my-5">
           <div class="col-md-4 text-center">

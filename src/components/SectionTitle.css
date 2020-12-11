@@ -1,0 +1,10 @@
+.underline {
+  width: 15rem;
+  border: 1px solid #eee;
+  margin: auto;
+}
+
+.lead-text{
+    font-size: 1.7rem;
+    font-weight: lighter;
+}

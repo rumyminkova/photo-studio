@@ -5,6 +5,7 @@ export const Navigation = () => {
     <nav class="navbar navbar-expand-lg fixed-top nav-menu">
       <a href="#" class="navbar-brand text-light">
         <span class="h1 studio-title">PhotoArt</span>
+        <span className="studio-subtitle"> Studio</span>
       </a>
       <button
         class="navbar-toggler nav-button"

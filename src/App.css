@@ -11,7 +11,7 @@
   --color-grey-light-3: #f0eeee;
   --color-grey-light-4: #ccc;
 
-  --color-grey-dark-1: #333;
+  --color-grey-dark-1: #151f20;
   --color-grey-dark-2: rgb(119, 119, 119);
   --color-grey-dark-3: #999;
 
@@ -47,6 +47,10 @@ p {
 .studio-title {
   font-family: "Allura", cursive;
   font-size: 7rem;
+}
+.studio-subtitle {
+  font-size: 1.7rem;
+  font-weight: lighter;
 }
 
 /* navbar */
@@ -138,49 +142,7 @@ p {
 }
 /* end of home page */
 
-/* mission */
-.mission {
-  background: #151f20;
-}
 
-.underline {
-  width: 150px;
-  border: 3px solid #eee;
-  margin: auto;
-}
-
-.fromLeft {
-  animation-name: fromLeft;
-  animation-duration: 3s;
-}
-
-.fromRight {
-  animation-name: fromRight;
-  animation-duration: 3s;
-}
-
-@keyframes fromLeft {
-  0% {
-    transform: translateX(-120px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fromRight {
-  0% {
-    transform: translateX(30px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-/* end of mission */
 
 /* collection */
 .card-shadow {
