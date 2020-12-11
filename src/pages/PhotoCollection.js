@@ -1,9 +1,12 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
+import "./PhotoCollection.css";
+import { COLLECTION_ITEMS } from "../data/data";
+import CollectionCard from "../components/CollectionCard";
 
 const PhotoCollection = () => {
   return (
-    <section class="bg-secondary py-4">
+    <section class="collection-color py-4">
       <div class="container-fluid">
         <SectionTitle
           titleName="Collection"
@@ -14,66 +17,9 @@ const PhotoCollection = () => {
         />
 
         <div class="row">
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/nature.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Nature Photography
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/wedding.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Wedding Photography
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/party.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Party Photography
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/business.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Business Photography
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/fashion.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Fashion Photography
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 my-5">
-            <div class="card border-0 card-shadow">
-              <img src="images/family.jpeg" class="card-img" />
-              <div class="card-img-overlay">
-                <h5 class="text-white text-uppercase font-weight-bold p-2 heading">
-                  Family Photography
-                </h5>
-              </div>
-            </div>
-          </div>
+          {COLLECTION_ITEMS.map((item) => (
+            <CollectionCard key={item.id} item={item} />
+          ))}
         </div>
       </div>
     </section>

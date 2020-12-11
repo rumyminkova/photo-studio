@@ -8,7 +8,7 @@ const HomePage = () => {
           Welcome to <span className="studio-title"> PhotoArt </span>
           <span className="display-3 text-capitalized">Studio</span>
         </h1>
-        <p className="banner-par">
+        <p className="display-5 banner-par">
           Capturing the moments that captivate your heart
         </p>
       </div>

@@ -8,7 +8,7 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <section className="p-5 mission">
+    <section className="p-5 bg-light">
       <div className="container-fluid">
         <SectionTitle
           titleName="Our Mission"
