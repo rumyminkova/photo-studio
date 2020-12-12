@@ -1,5 +1,5 @@
 import React from "react";
-import './SectionTitle.css'
+import "./SectionTitle.css";
 
 const SectionTitle = ({ titleName, text, textColor }) => {
   return (
@@ -8,8 +8,8 @@ const SectionTitle = ({ titleName, text, textColor }) => {
         textColor === "dark" ? "text-dark" : "text-light"
       }`}
     >
-      <div className="col m-4">
-        <h1 className="display-3 mb-4">{titleName}</h1>
+      <div className="col m-4 mx-auto">
+        <h1 className="title-text mb-4">{titleName}</h1>
         <div className="underline mb-4"></div>
         <p className="lead-text my-2">{text}</p>
       </div>

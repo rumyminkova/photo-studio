@@ -9,10 +9,8 @@ const PhotoCollection = () => {
       <div class="container-fluid">
         <SectionTitle
           titleName="Collection"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Accusantium inventore, sint quisquam fugiat pariatur culpa
-          officia. Eveniet omnis quia tempora"
-          textColor="light"
+          text="We are a full service photography service"
+          textColor="dark"
         />
 
         <div class="row">

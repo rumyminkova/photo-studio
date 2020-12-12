@@ -3,8 +3,7 @@
 } */
 
 .icon-style {
-  color: var(--color-primary-dark);
-  font-weight: lighter;
+  color: var(--color-primary);
 }
 
 .fromLeft {

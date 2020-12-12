@@ -7,7 +7,7 @@ const CollectionCard = ({ item }) => {
       <div className="card border-0 card-shadow">
         <img src={item.image} className="card-img" />
         <div className="card-img-overlay">
-          <h5 className="text-white text-uppercase font-weight-bold p-2 heading">
+          <h5 className="p-2 heading">
             {item.text}
           </h5>
         </div>

@@ -5,15 +5,16 @@
 
 .heading {
   position: absolute;
-  top: 70%;
+  bottom: 0%;
   right: 0;
-  font-size: 14px;
   letter-spacing: 1px;
   background: #222;
-  width: 70%;
+  width: 60%;
   cursor: pointer;
   opacity: 0.7;
   transition: all 0.5s;
+  font-size: 2rem;
+  color: var(--color-primary);
 }
 
 .heading:hover {

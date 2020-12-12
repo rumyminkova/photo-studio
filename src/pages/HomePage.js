@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <div className="text-light text-md-right text-center banner">
-        <h1 className="display-3 banner-heading">
+        <h1 className="display-2 banner-heading">
           Welcome to <span className="studio-title"> PhotoArt </span>
           <span className="display-3 text-capitalized">Studio</span>
         </h1>

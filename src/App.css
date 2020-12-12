@@ -1,10 +1,7 @@
 :root {
-  --color-primary: #70aed2;
-  --color-primary-light: #fada82;
+  --color-primary: #bb8e12;
   --color-primary-dark: #347ba5;
-
-  --color-secondary-dark: rgba(7, 27, 82);
-  --color-secondary-light: rgba(0, 128, 128);
+  --color-primary-light: #70aed2;
 
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
@@ -37,7 +34,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
-  color: var(--color-grey-dark-2);
 }
 
 p {
@@ -47,12 +43,11 @@ p {
 .studio-title {
   font-family: "Allura", cursive;
   font-size: 7rem;
-  color: var(--color-primary-dark);
-
+  color: var(--color-primary);
 }
 .studio-subtitle {
   font-size: 1.7rem;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 /* navbar */
@@ -70,11 +65,11 @@ p {
 }
 
 .menu-item:hover {
-  color: #70aed2;
+  color: var(--color-primary);
 }
 
 .nav-active {
-  color: #70aed2;
+  color: var(--color-primary);
 }
 
 .line1,
@@ -144,10 +139,6 @@ p {
 }
 /* end of home page */
 
-
-
-
-
 /* gallery */
 .underline-dark {
   width: 150px;
@@ -165,7 +156,6 @@ p {
   color: #70aed2;
 }
 /* end of gallery */
-
 
 /* pricing */
 .card-1,
@@ -321,10 +311,7 @@ p {
 }
 /* end of footer */
 
-
-.collection-color, .customers{
+.mission,
+.customers {
   background: #151f20;
 }
-
-
-

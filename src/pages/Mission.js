@@ -8,15 +8,16 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <section className="p-5 bg-light">
+    <section className="p-5 mission">
       <div className="container-fluid">
         <SectionTitle
           titleName="Our Mission"
-          text="Capturing the moments that captivate your heart"
-          textColor="dark"
+          text="To provide you with high quality images that you will love"
+          textColor="light"
         />
+      </div>
 
-        <div className="row my-5">
+      {/* <div className="row my-5">
           <div className="col-md-4 text-center my-5">
             <ImCogs className="icon-style mb-4" size="5rem" />
             <h1 className="mb-3 text-muted">Creativity</h1>
@@ -48,7 +49,8 @@ const Mission = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 text-center">
