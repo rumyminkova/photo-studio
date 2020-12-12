@@ -1,18 +1,19 @@
 import React from "react";
+import SectionTitle from "../components/SectionTitle";
+import CustomersCarousel from "../components/CustomersCarousel";
 
 const Customers = () => {
   return (
-    <section class="p-5 customers">
-      <div class="container-fluid">
-        <div class="row text-white text-center">
-          <div class="col m-4">
-            <h1 class="display-4 mb-4">Happy Customers</h1>
-            <div class="underline mb-4"></div>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium inventore, sint quisquam fugiat pariatur culpa
-              officia. Eveniet omnis quia tempora.
-            </p>
+    <section className="p-5 customers">
+      <div className="container-fluid">
+        <SectionTitle
+          titleName="Happy Customers"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          textColor="light"
+        />
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <CustomersCarousel />
           </div>
         </div>
 

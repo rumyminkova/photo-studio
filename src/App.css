@@ -166,11 +166,6 @@ p {
 }
 /* end of gallery */
 
-/* customers */
-.customers {
-  background: #151f20;
-}
-/* end of customers */
 
 /* pricing */
 .card-1,
@@ -325,3 +320,11 @@ p {
   text-decoration: none;
 }
 /* end of footer */
+
+
+.collection-color, .customers{
+  background: #151f20;
+}
+
+
+

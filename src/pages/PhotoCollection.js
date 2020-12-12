@@ -1,6 +1,5 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
-import "./PhotoCollection.css";
 import { COLLECTION_ITEMS } from "../data/data";
 import CollectionCard from "../components/CollectionCard";
 
