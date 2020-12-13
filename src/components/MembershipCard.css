@@ -1,0 +1,34 @@
+/* pricing */
+.price-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(../images/camera.jpg) no-repeat center / cover;
+
+  box-shadow: var(--shadow-light);
+  max-width: 30rem;
+}
+
+.card-title__text {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.card-list-item {
+  border-bottom: 1px groove #eee;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.price-card-button {
+  background: var(--color-primary);
+  width: 11rem;
+  border-radius: 25px;
+  box-shadow: var(--shadow-dark);
+  transition: all 0.2s;
+  font-size: 1.3rem;
+}
+
+.price-card-button:hover {
+  transform: translateY(-2px);
+  background: var(--color-primary);
+}

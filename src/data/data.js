@@ -45,3 +45,38 @@ export const GALLERY_ITEMS = [
   { id: 5, image: "images/fashion.jpeg", filter: "Fashion" },
   { id: 6, image: "images/family.jpg", filter: "Family" },
 ];
+
+export const MEMBERSHIP_ITEMS = [
+  {
+    title: "Monthly Membership",
+    cost: 19,
+    itemsIncluded: [
+      "Photoshop",
+      "After Effects",
+      "Graphic Design",
+      "Video Montage",
+    ],
+  },
+  {
+    title: "Unlimited Access",
+    cost: 499,
+    itemsIncluded: [
+      "Photoshop",
+      "After Effects",
+      "Graphic Design",
+      "Video Montage",
+      "Clip Making",
+    ],
+  },
+  {
+    title: "Annual Membership",
+    cost: 199,
+    itemsIncluded: [
+      "Photoshop",
+      "After Effects",
+      "Graphic Design",
+      "Video Montage",
+      "Clip Making",
+    ],
+  },
+];

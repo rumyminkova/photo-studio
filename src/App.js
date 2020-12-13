@@ -6,7 +6,7 @@ import Mission from "./pages/Mission";
 import PhotoCollection from "./pages/PhotoCollection";
 import Gallery from "./pages/Gallery";
 import Customers from "./pages/Customers";
-import Pricing from "./pages/Pricing";
+import Membership from "./pages/Membership";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Navigation from "./components/Navigation";
@@ -20,7 +20,7 @@ function App() {
       <PhotoCollection />
       <Gallery />
       <Customers />
-      <Pricing />
+      <Membership />
       <Contact />
       <Footer />
     </div>
