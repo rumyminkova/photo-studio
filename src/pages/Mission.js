@@ -12,7 +12,7 @@ const Mission = () => {
       <div className="container-fluid">
         <SectionTitle
           titleName="Our Mission"
-          text="To provide you with high quality images that you will love"
+          text="We strive to provide you with high quality images that you will love"
           textColor="light"
         />
       </div>

@@ -9,18 +9,18 @@
   right: 0;
   letter-spacing: 1px;
   width: 50%;
-  cursor: pointer;
   font-size: 3.2rem;
   background-color: var(--color-primary);
   font-weight: bold;
   font-family: "Allura", cursive;
-  opacity: 0.7;
+  opacity: 0.6;
   text-align: center;
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-  line-height: 1;
+  line-height: 0.8;
 }
 
-.heading:hover {
+/* .collection-card:hover {
   opacity: 0.7;
   transition: all 0.5s;
-}
+  cursor: pointer;
+} */

@@ -30,3 +30,18 @@ export const CAROUSEL_ITEMS = [
     rating: 5,
   },
 ];
+
+export const GALLERY_ITEMS = [
+  { id: 1, image: "images/img1.jpeg", filter: "Nature" },
+  { id: 11, image: "images/img11.jpeg", filter: "Nature" },
+  { id: 12, image: "images/img12.jpeg", filter: "Nature" },
+  { id: 13, image: "images/img13.jpeg", filter: "Nature" },
+  { id: 14, image: "images/img14.jpeg", filter: "Nature" },
+  { id: 16, image: "images/img16.jpeg", filter: "Nature" },
+  { id: 2, image: "images/wedding.jpeg", filter: "Wedding" },
+  { id: 21, image: "images/wedding.jpg", filter: "Wedding" },
+  { id: 3, image: "images/party.jpg", filter: "Party" },
+  { id: 4, image: "images/business.jpg", filter: "Business" },
+  { id: 5, image: "images/fashion.jpeg", filter: "Fashion" },
+  { id: 6, image: "images/family.jpg", filter: "Family" },
+];

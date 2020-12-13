@@ -7,7 +7,7 @@ const Customers = () => {
     <section className="p-5 customers">
       <div className="container-fluid">
         <SectionTitle
-          titleName="Happy Customers"
+          titleName="Our Customers"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           textColor="light"
         />
