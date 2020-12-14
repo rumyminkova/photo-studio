@@ -2,8 +2,9 @@
   background: var(--color-grey-dark-1);
 } */
 
-.icon-style {
+.subtitle-style {
   color: var(--color-primary);
+  font-weight: lighter;
 }
 
 .fromLeft {

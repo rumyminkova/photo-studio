@@ -181,6 +181,5 @@ p {
 .mission,
 .customers,
 .contact {
-  /* background: #12181a; */
   background: var(--color-secondary);
 }

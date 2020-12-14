@@ -11,7 +11,7 @@ const Contact = () => {
           text="We would love to hear from you!"
           textColor="light"
         />
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-lg-5 pb-4">
             <h3 class="display-4 mb-5 text-white">Get In Touch</h3>
             <form class="contact-form">

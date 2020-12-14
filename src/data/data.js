@@ -9,24 +9,24 @@ export const COLLECTION_ITEMS = [
 
 export const CAROUSEL_ITEMS = [
   {
-    src: "images/customer1.jpeg",
-    altText:
+    src: "images/customers/customer1.jpg",
+    text:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit Eum earum fuga natus veritatis minima voluptatibus?",
-    caption: "Monika",
+    name: "Peter",
     rating: 5,
   },
   {
-    src: "images/customer2.jpeg",
-    altText:
+    src: "images/customers/customer2.jpg",
+    text:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit Eum earum fuga natus veritatis minima voluptatibus?",
-    caption: "John",
+    name: "John",
     rating: 4,
   },
   {
-    src: "images/customer3.jpeg",
-    altText:
+    src: "images/customers/customer3.jpg",
+    text:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit Eum earum fuga natus veritatis minima voluptatibus?",
-    caption: "Anna",
+    name: "Anna",
     rating: 5,
   },
 ];

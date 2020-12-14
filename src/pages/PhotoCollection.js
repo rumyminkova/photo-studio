@@ -6,13 +6,12 @@ import CollectionCard from "../components/CollectionCard";
 const PhotoCollection = () => {
   return (
     <section class="collection-color py-4">
+      <SectionTitle
+        titleName="Collection"
+        text="We are a full service photography service"
+        textColor="dark"
+      />
       <div class="container-fluid">
-        <SectionTitle
-          titleName="Collection"
-          text="We are a full service photography service"
-          textColor="dark"
-        />
-
         <div class="row">
           {COLLECTION_ITEMS.map((item) => (
             <CollectionCard key={item.id} item={item} />

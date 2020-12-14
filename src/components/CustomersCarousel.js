@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption,
-} from "reactstrap";
+import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
+import Rating from "react-rating";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 import { CAROUSEL_ITEMS as items } from "../data/data";
 import "./CustomersCarousel.css";
@@ -39,49 +35,43 @@ const CustomersCarousel = () => {
         key={item.src}
         className="text-center my-5"
       >
-        <div className="carousel-image-cropper my-5">
-          <img
-            src={item.src}
-            alt="Customer image"
-            className="carousel-profile-pic"
-          />
-        </div>
+        <img
+          src={item.src}
+          alt="Customer"
+          className="img-fluid rounded-circle m-5"
+          width="150"
+        />
+        <blockquote className="blockquote text-muted">
+          <p className="mb-3">{item.text}</p>
+        </blockquote>
 
-        <div>
-          <blockquote className="blockquote text-white">
-            <p className="mb-5">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-              earum fuga natus veritatis minima voluptatibus? Quae consequuntur
-              beatae repudiandae aut!
-            </p>
-          </blockquote>
-          <h5 className="text-light text-uppercase font-weight-bold mb-3">
-            Monica
-          </h5>
-        </div>
+        <Rating
+          initialRating={item.rating}
+          readonly
+          emptySymbol={<AiOutlineStar size="2.5rem" className="rating-color" />}
+          fullSymbol={<AiFillStar size="2.5rem" className="rating-color" />}
+        />
+        <h5 className="text-muted text-uppercase font-weight-bold mb-5 mt-3">
+          {item.name}
+        </h5>
       </CarouselItem>
     );
   });
 
   return (
     <div>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+      <Carousel
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+        controls={false}
+      >
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
           onClickHandler={goToIndex}
         />
         {slides}
-        <CarouselControl
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={previous}
-        />
-        <CarouselControl
-          direction="next"
-          directionText="Next"
-          onClickHandler={next}
-        />
       </Carousel>
     </div>
   );
