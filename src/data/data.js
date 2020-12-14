@@ -20,7 +20,7 @@ export const CAROUSEL_ITEMS = [
     text:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit Eum earum fuga natus veritatis minima voluptatibus?",
     name: "John",
-    rating: 4,
+    rating: 4.5,
   },
   {
     src: "images/customers/customer3.jpg",

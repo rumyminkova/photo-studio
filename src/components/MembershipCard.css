@@ -26,9 +26,22 @@
   box-shadow: var(--shadow-dark);
   transition: all 0.2s;
   font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .price-card-button:hover {
   transform: translateY(-2px);
   background: var(--color-primary);
 }
+/* .price-card-button {
+  background: #f5593d;
+  width: 130px;
+  border-radius: 25px;
+  box-shadow: 5px 8px 18px #000;
+  transition: all 0.2s;
+}
+
+.price-card-button:hover {
+  background: #f9793d;
+  transform: translateY(-2px);
+} */

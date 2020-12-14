@@ -1,130 +1,99 @@
 import React from "react";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaTwitterSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer class="bg-dark px-5">
-      <div class="container-fluid">
-        <div class="row text-light py-4">
-          <div class="col-lg-4 col-sm-6">
-            <h5 class="pb-3">About Us</h5>
-            <p class="small">
+    <footer className="footer-container px-5">
+      <div className="container-fluid">
+    
+        <div className="row text-light py-4">
+          <div className="col-lg-4 col-sm-6">
+            <h4 className="pb-2">About Us</h4>
+            <p className="footer-small-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
               nobis dicta molestiae id laboriosam natus repudiandae, ducimus
               illum veritatis perspiciatis possimus, at facere debitis
               accusantium?
             </p>
           </div>
-          <div class="col-lg-2 col-sm-6">
-            <h5 class="pb-3">Visit Us</h5>
-            <ul class="list-unstyled">
+          <div className="col-lg-4 col-sm-6">
+            <h4 className="pb-2">Need Help?</h4>
+            <ul className="list-unstyled">
               <li>
-                <a href="#" class="footer-link">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Mission
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Collection
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Gallery
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Customers
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-sm-6">
-            <h5 class="pb-3">Need Help?</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="#" class="footer-link text-uppercase">
+                <a href="#" className="footer-link text-uppercase">
                   Customer Service
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-link text-uppercase">
+                <a href="#" className="footer-link text-uppercase">
                   Online Chat
                 </a>
               </li>
               <li>
-                <a href="#" class="footer-link text-uppercase">
+                <a href="#" className="footer-link text-uppercase">
                   Support
                 </a>
               </li>
               <li>
-                <a href="#" class="text-info">
-                  photox@email.com
+                <a href="#" className="footer-email">
+                  photoartstudio@email.com
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <h5 class="pb-3">Stay Connected</h5>
-            <p class="small">
+          <div className="col-lg-4 col-sm-6">
+            <h4 className="pb-2">Stay Connected</h4>
+            <p className="footer-small-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
               accusamus dolores iste praesentium assumenda est quia accusantium
               corrupti ipsam inventore.
             </p>
-            <form class="mb-3">
-              <div class="input-group">
+            <form className="mb-3">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Email Address"
                 />
-                <div class="input-group-append">
+                <div className="input-group-append">
                   <button
                     type="button"
-                    class="btn bg-danger text-white text-uppercase font-weight-bold"
+                    className="btn bg-dark text-white text-uppercase font-weight-bold"
                   >
                     Sign Up
                   </button>
                 </div>
               </div>
             </form>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <i class="fab fa-facebook-square fa-2x text-primary"></i>
+          </div>
+        </div>
+        <div className="row mt-2 mb-4">
+          <div className="col text-center">
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <FaFacebookSquare size="2.7rem" className="social-icons" />
+              </li>
+              <li className="list-inline-item">
+                <FaInstagramSquare size="2.7rem" className="social-icons" />
               </li>
               <li class="list-inline-item">
-                <i class="fab fa-google-plus fa-2x text-danger"></i>
+                <FaTwitterSquare size="2.7rem" className="social-icons" />
               </li>
               <li class="list-inline-item">
-                <i class="fab fa-instagram fa-2x text-danger"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-twitter fa-2x text-info"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-youtube fa-2x text-danger"></i>
+                <FaYoutubeSquare size="2.7rem" className="social-icons" />
               </li>
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col text-center text-light border-top pt-3">
-            <p>&copy; 2018 Copyright, All Rights Reserved</p>
+        <div className="row">
+          <div className="col text-center border-top pt-1">
+            <p className="footer-small-text">&copy; 2020, Rumyana Rupetsova</p>
           </div>
         </div>
       </div>

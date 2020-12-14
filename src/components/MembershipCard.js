@@ -14,7 +14,7 @@ const MembershipCard = ({ title, cost, itemsIncluded }) => {
         </ul>
         <a
           href="#"
-          className="btn p-2 text-uppercase price-card-button text-light mt-2"
+          className="btn  p-2 text-uppercase price-card-button text-light mt-2"
         >
           sign-up!
         </a>

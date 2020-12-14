@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #bb8e12;
+  --color-primary: rgb(187, 142, 18);
   /* --color-secondary: rgb(16, 29, 44); */
   --color-secondary: rgb(11, 27, 37);
 
@@ -40,7 +40,6 @@ body {
 p {
   font-size: 2rem;
 }
-
 
 .studio-title {
   font-family: "Allura", cursive;
@@ -133,6 +132,8 @@ p {
   animation-duration: 2s;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 @keyframes anim {
@@ -165,18 +166,7 @@ p {
 }
 /* end of gallery */
 
-/* footer */
-.footer-link {
-  color: #eee;
-  font-size: 13px;
-  transition: all 0.3s;
-}
 
-.footer-link:hover {
-  color: #70aed2;
-  text-decoration: none;
-}
-/* end of footer */
 
 .mission,
 .customers,
