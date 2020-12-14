@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section className="contact p-5">
-      <div className="container-fluid">
+      <div className="container">
         <SectionTitle
           titleName="Get In Touch"
           text="We would love to hear from you!"
@@ -49,9 +49,56 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="col-lg-7 text-center gallery">
-            <img src="images/contact.jpg" className="gallery__img" />
-            <img src="images/contact.jpg" className="img-fluid" width="100%" />
+          <div className="col col-md-7 mx-auto text-center gallery">
+            <figure class="gallery__item--1">
+              <img
+                src="images/gallery/gal1.jpg"
+                alt="Gallery 1"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--2">
+              <img
+                src="images/gallery/gal2.jpg"
+                alt="Gallery 2"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--3">
+              <img
+                src="images/gallery/gal3.jpg"
+                alt="Gallery 3"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--4">
+              <img
+                src="images/gallery/gal4.jpg"
+                alt="Gallery 4"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--5">
+              <img
+                src="images/gallery/gal5.jpg"
+                alt="Gallery 5"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--6">
+              <img
+                src="images/gallery/gal6.jpg"
+                alt="Gallery 6"
+                className="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item--8">
+              <img
+                src="images/gallery/gal8.jpg"
+                alt="Gallery 8"
+                className="gallery__img"
+              />
+            </figure>
           </div>
         </div>
       </div>
