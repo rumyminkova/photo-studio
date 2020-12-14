@@ -1,7 +1,7 @@
 :root {
   --color-primary: #bb8e12;
-  --color-primary-dark: #347ba5;
-  --color-primary-light: #70aed2;
+  /* --color-secondary: rgb(16, 29, 44); */
+  --color-secondary: rgb(11, 27, 37);
 
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
@@ -53,7 +53,7 @@ p {
 
 /* navbar */
 .nav-menu {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(16, 29, 44, 0.5), rgba(16, 29, 44, 0.8));
   padding: 30px;
   transition: all 0.7s;
 }
@@ -101,6 +101,12 @@ p {
 /* end of navbar */
 
 /* home page */
+
+/* .home-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(./images/header-img.jpg) no-repeat center / cover;
+} */
 
 .home-page {
   height: 100vh;
@@ -158,73 +164,6 @@ p {
 }
 /* end of gallery */
 
-
-
-/* contact */
-.contact {
-  background: linear-gradient(
-      105deg,
-      rgba(21, 31, 32, 1) 0%,
-      rgba(21, 31, 32, 0.95) 50%,
-      transparent 50%
-    ),
-    url(images/form-img.jpeg) center center no-repeat / cover;
-}
-
-.input {
-  background: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  transition: all 0.8s;
-}
-
-.input:focus {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  color: #fff;
-  border-bottom: 2px solid #f5593d;
-}
-
-.submit-button {
-  background: #f5593d;
-  color: #eee;
-  transition: all 0.3s;
-}
-
-.submit-button:hover {
-  background: #f9793d;
-  transform: translateY(-3px);
-}
-
-.label {
-  color: #777;
-  display: block;
-  margin-top: -70px;
-  margin-left: 4px;
-  font-size: 13px;
-  transition: all 0.3s;
-}
-
-.input:placeholder-shown + .label {
-  transform: translate(20px, 20px);
-  opacity: 0;
-  visibility: hidden;
-}
-
-@media (max-width: 992px) {
-  .contact {
-    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, 0.95));
-  }
-
-  .contact-form {
-    width: 80%;
-    margin: auto;
-  }
-}
-/* end of contact */
-
 /* footer */
 .footer-link {
   color: #eee;
@@ -239,6 +178,8 @@ p {
 /* end of footer */
 
 .mission,
-.customers {
-  background: #151f20;
+.customers,
+.contact {
+  /* background: #12181a; */
+  background: var(--color-secondary);
 }

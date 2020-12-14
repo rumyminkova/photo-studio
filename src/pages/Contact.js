@@ -1,9 +1,16 @@
 import React from "react";
+import SectionTitle from "../components/SectionTitle";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section class="contact p-5">
-      <div class="container-fluid">
+    <section className="contact p-5">
+      <div className="container-fluid">
+        <SectionTitle
+          titleName="Get In Touch"
+          text="We would love to hear from you!"
+          textColor="light"
+        />
         <div class="row">
           <div class="col-lg-5 pb-4">
             <h3 class="display-4 mb-5 text-white">Get In Touch</h3>
@@ -41,6 +48,10 @@ const Contact = () => {
                 Subscribe
               </button>
             </form>
+          </div>
+          <div className="col-lg-7 text-center gallery">
+            <img src="images/contact.jpg" className="gallery__img" />
+            <img src="images/contact.jpg" className="img-fluid" width="100%" />
           </div>
         </div>
       </div>
