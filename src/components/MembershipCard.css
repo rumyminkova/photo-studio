@@ -20,7 +20,7 @@
 .card-button {
   background-color: var(--color-primary);
   width: 11rem;
-  border-radius: 25px;
+  border-radius: 15px;
   box-shadow: var(--shadow-dark);
   transition: all 0.2s;
   font-size: 1.3rem;
