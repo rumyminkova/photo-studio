@@ -8,7 +8,7 @@ import "./Mission.css";
 
 const Mission = () => {
   return (
-    <section className="p-5 mission">
+    <section className="p-5 mission" id="mission">
       <SectionTitle
         titleName="Our Mission"
         text="We strive to provide you with high quality images that you will love"

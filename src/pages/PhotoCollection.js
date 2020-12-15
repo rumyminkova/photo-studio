@@ -5,7 +5,7 @@ import CollectionCard from "../components/CollectionCard";
 
 const PhotoCollection = () => {
   return (
-    <section class="collection-color py-4">
+    <section class="collection-color py-4" id="collection">
       <SectionTitle
         titleName="Collection"
         text="We are a full service photography studio"

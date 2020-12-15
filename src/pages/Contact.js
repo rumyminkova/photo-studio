@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact p-5">
+    <section className="contact p-5" id="contact">
       <SectionTitle
         titleName="Get In Touch"
         text="We would love to hear from you!"

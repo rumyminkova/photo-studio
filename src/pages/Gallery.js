@@ -4,7 +4,7 @@ import { GALLERY_ITEMS } from "../data/data";
 
 const Gallery = () => {
   return (
-    <section class="py-5">
+    <section class="py-5" id="gallery">
       <SectionTitle
         titleName="Gallery"
         text="Here are some of our best images"

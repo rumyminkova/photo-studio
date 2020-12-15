@@ -4,7 +4,7 @@ import CustomersCarousel from "../components/CustomersCarousel";
 
 const Customers = () => {
   return (
-    <section className="p-5 customers">
+    <section className="p-5 customers" id="customers">
       <SectionTitle
         titleName="Our Customers"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit."

@@ -74,7 +74,6 @@
   }
 
 .gallery {
-  /* background-color: var(--color-primary); */
   grid-column: full-start / full-end;
   display: grid;
   grid-template: repeat(6, 6vw) / repeat(7, 1fr);

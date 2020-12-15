@@ -40,32 +40,37 @@ export const Navigation1 = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="p-3 ml-auto" navbar>
             <NavItem className="nav-item">
-              <NavLink href="/" className="m-2 menu-item nav-active">
+              <NavLink href="/" className="m-2 menu-item">
                 Home
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink href="/mission" className="m-2 menu-item">
+              <NavLink href="#mission" className="m-2 menu-item">
                 Mission
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink href="/Collection" className="m-2 menu-item">
+              <NavLink href="#collection" className="m-2 menu-item">
                 Collection
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink href="/Gallery" className="m-2 menu-item">
+              <NavLink href="#gallery" className="m-2 menu-item">
                 Gallery
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink href="/Mambership" className="m-2 menu-item">
-                Mambership
+              <NavLink href="#customers" className="m-2 menu-item">
+                Customers
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink href="/Contact" className="m-2 menu-item">
+              <NavLink href="#membership" className="m-2 menu-item">
+                Join Us
+              </NavLink>
+            </NavItem>
+            <NavItem className="nav-item">
+              <NavLink href="#contact" className="m-2 menu-item">
                 Contact
               </NavLink>
             </NavItem>

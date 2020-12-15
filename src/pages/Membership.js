@@ -5,7 +5,7 @@ import { MEMBERSHIP_ITEMS } from "../data/data";
 
 const Membership = () => {
   return (
-    <section class="bg-light text-center p-5">
+    <section class="bg-light text-center p-5" id="membership">
       <div class="container-fluid">
         <SectionTitle
           titleName="Join Us"
