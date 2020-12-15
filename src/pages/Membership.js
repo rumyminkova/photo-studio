@@ -14,7 +14,7 @@ const Membership = () => {
         />
         <div class="row align-items-center">
           {MEMBERSHIP_ITEMS.map((item) => (
-            <div class="col-lg-4">
+            <div class="col-lg-4" key={item.title}>
               <MembershipCard
                 title={item.title}
                 cost={item.cost}
