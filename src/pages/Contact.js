@@ -19,7 +19,7 @@ const Contact = () => {
               <div className="form-group py-4">
                 <input
                   type="text"
-                  className="form-control my-2 p-2 text-input"
+                  className="form-control my-2 p-2 input"
                   placeholder="Name"
                 />
                 <label for="name" className="label">
@@ -29,8 +29,8 @@ const Contact = () => {
               <div className="form-group py-4">
                 <input
                   type="email"
-                  className="form-control my-2 p-2 text-input"
-                  placeholder="Email Address"
+                  className="my-2 p-2 text-input"
+                  placeholder="Email"
                 />
                 <label for="email" className="label">
                   Email Address
@@ -38,13 +38,12 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="btn p-2 font-weight-bold text-uppercase submit-button"
+                className="py-2 px-3 text-light text-uppercase submit-button"
               >
                 Send Message
               </button>
             </form>
           </div>
-
           <div className="col-12 col-md-7 mx-auto my-5 p-3">
             <Gallery />
           </div>

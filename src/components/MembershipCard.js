@@ -12,7 +12,7 @@ const MembershipCard = ({ title, cost, itemsIncluded }) => {
             <li className="py-3 card-list-item text-light">{el}</li>
           ))}
         </ul>
-        <button className="p-2 text-uppercase card-button text-light my-4">
+        <button className="p-2 text-uppercase card-button text-light mt-4">
           sign-up!
         </button>
       </div>

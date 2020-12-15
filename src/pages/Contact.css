@@ -1,4 +1,4 @@
-.text-input {
+/* .text-input {
   background: transparent;
   border-color: transparent;
   border-bottom: 1px solid #ccc;
@@ -14,16 +14,6 @@
   border-bottom: 1px solid rgb(223, 29, 29);
 }
 
-.submit-button {
-  background: var(--color-primary);
-  color: #eee;
-  transition: all 0.3s;
-  margin-top: 110px;
-}
-
-.submit-button:hover {
-  transform: translateY(-3px);
-}
 
 .label {
   color: #777;
@@ -69,4 +59,26 @@
   transform: translate(20px, 20px);
   opacity: 0;
   visibility: hidden;
+} */
+
+.submit-button {
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  transition: all 0.2s;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--button-shadow);
+}
+
+.text-input {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  transition: all 0.8s;
 }
