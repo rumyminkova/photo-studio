@@ -8,7 +8,7 @@ const PhotoCollection = () => {
     <section class="collection-color py-4">
       <SectionTitle
         titleName="Collection"
-        text="We are a full service photography service"
+        text="We are a full service photography studio"
         textColor="dark"
       />
       <div class="container-fluid">

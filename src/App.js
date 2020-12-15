@@ -10,11 +10,13 @@ import Membership from "./pages/Membership";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Navigation from "./components/Navigation";
+import { Navigation1 } from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <Navigation1 />
+      {/* <Navigation /> */}
       <HomePage />
       <Mission />
       <PhotoCollection />

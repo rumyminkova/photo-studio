@@ -1,57 +1,77 @@
-/* contact */
-
 .input {
-  background: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  transition: all 0.8s;
-}
-
-.input:focus {
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  color: #fff;
-  border-bottom: 2px solid #f5593d;
-}
-
-.submit-button {
-  background: #f5593d;
-  color: #eee;
-  transition: all 0.3s;
-}
-
-.submit-button:hover {
-  background: #f9793d;
-  transform: translateY(-3px);
-}
-
-.label {
-  color: #777;
-  display: block;
-  margin-top: -70px;
-  margin-left: 4px;
-  font-size: 13px;
-  transition: all 0.3s;
-}
-
-.input:placeholder-shown + .label {
-  transform: translate(20px, 20px);
-  opacity: 0;
-  visibility: hidden;
-}
-
-@media (max-width: 992px) {
-  .contact {
-    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, 0.95));
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    transition: all .8s;
+  }
+  
+  .input:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 1px solid  rgb(223, 29, 29);
+  }
+  
+  .submit-button {
+    background: rgb(223, 29, 29);
+    color: #eee;
+    transition: all .3s;
+    margin-top: 110px;
+  }
+  
+  .submit-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .label {
+    color: #777;
+    display: block;
+    margin-top: -70px;
+    margin-left: 4px;
+    font-size: 13px;
+    transition: all .3s;
+  }
+  
+  .input:placeholder-shown + .label {
+    transform: translate(20px, 20px);
+    opacity: 0;
+    visibility: hidden;
   }
 
-  .contact-form {
-    width: 80%;
-    margin: auto;
+
+  .my-text-input {
+    background: transparent;
+    border-color: transparent;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+    transition: all .8s;
   }
-}
+
+  .my-text-input:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-left: 1px solid  rgb(223, 29, 29);
+  }
+
+
+  .my-label-text {
+    color: #777;
+    display: block;
+    margin-top: -120px;
+    margin-left: 4px;
+    font-size: 13px;
+    transition: all .3s;
+  }
+
+  .my-text-input:placeholder-shown + .my-label-text {
+    transform: translate(20px, 20px);
+    opacity: 0;
+    visibility: hidden;
+  }
 
 .gallery {
   /* background-color: var(--color-primary); */

@@ -1,0 +1,48 @@
+.studio-title {
+  font-family: "Allura", cursive;
+  font-size: 7rem;
+  color: var(--color-primary);
+}
+.studio-subtitle {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.home-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(../images/header-img.jpg) no-repeat center / cover;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.banner-heading {
+  animation-name: anim;
+  animation-duration: 2s;
+}
+
+.banner-par {
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

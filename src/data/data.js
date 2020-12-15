@@ -76,7 +76,6 @@ export const MEMBERSHIP_ITEMS = [
       "After Effects",
       "Graphic Design",
       "Video Montage",
-      "Clip Making",
     ],
   },
 ];

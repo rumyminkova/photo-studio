@@ -8,8 +8,8 @@ const Membership = () => {
     <section class="bg-light text-center p-5">
       <div class="container-fluid">
         <SectionTitle
-          titleName="Become a Member"
-          text="We are a full service photography service"
+          titleName="Join Us"
+          text="Become a Member"
           textColor="dark"
         />
         <div class="row align-items-center">
