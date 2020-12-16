@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
   NavLink,
 } from "reactstrap";
 
-export const Navigation1 = () => {
+export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -78,69 +77,6 @@ export const Navigation1 = () => {
         </Collapse>
       </Navbar>
     </div>
-  );
-};
-
-export const Navigation = () => {
-  return (
-    <nav className="navbar navbar-expand-lg fixed-top nav-menu">
-      <a href="#" className="navbar-brand text-light">
-        <span className="h1 studio-title">PhotoArt</span>
-        <span className="studio-subtitle"> Studio</span>
-      </a>
-      <button
-        className="navbar-toggler nav-button"
-        type="button"
-        data-toggle="collapse"
-        data-target="#myNavbar"
-      >
-        <div className="bg-light line1"></div>
-        <div className="bg-light line2"></div>
-        <div className="bg-light line3"></div>
-      </button>
-      <div
-        className="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold"
-        id="myNavbar"
-      >
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item nav-active">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Mission
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Collection
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Gallery
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Customers
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Pricing
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link m-2 menu-item">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
   );
 };
 

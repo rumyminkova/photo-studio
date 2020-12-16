@@ -10,13 +10,12 @@ import Membership from "./pages/Membership";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Navigation from "./components/Navigation";
-import { Navigation1 } from "./components/Navigation";
+import CustomForm from "./components/CustomForm/custom-form/CustomForm";
 
 function App() {
   return (
     <div className="App">
-      <Navigation1 />
-      {/* <Navigation /> */}
+      <Navigation />
       <HomePage />
       <Mission />
       <PhotoCollection />
@@ -25,6 +24,7 @@ function App() {
       <Membership />
       <Contact />
       <Footer />
+      <CustomForm/>
     </div>
   );
 }
