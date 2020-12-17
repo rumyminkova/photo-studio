@@ -1,5 +1,5 @@
 :root {
-  --color-primary: rgb(187, 142, 18);
+  --color-primary: #bb8e12;
   --color-secondary: #0b1b25;
 
   --color-grey-dark: #777777;
@@ -16,7 +16,7 @@
 
   --shadow-dark: 0 2rem 6rem #0000004d;
   --shadow-light: 0 2rem 2rem #444;
-  --button-shadow: 0.3rem 0.3rem 1rem #777777;
+  --button-shadow: 0.3rem 0.3rem 1rem #444;
 }
 
 * {
