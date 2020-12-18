@@ -1,8 +1,4 @@
 import React from "react";
-import { ImCogs } from "react-icons/im";
-import { FaThumbsUp, FaHandshake } from "react-icons/fa";
-import { TiThumbsUp } from "react-icons/ti";
-
 import SectionTitle from "../components/SectionTitle";
 import "./Mission.css";
 

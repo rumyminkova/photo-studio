@@ -7,7 +7,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-
+import "./Navigation.css";
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +17,7 @@ export const Navigation = () => {
     <div>
       <Navbar className="fixed-top nav-menu" expand="md">
         <NavbarBrand href="/" className="text-light">
-          <span className="h1 studio-title">PhotoArt</span>
+          <span className="studio-title-nav">PhotoArt</span>
           <span className="studio-subtitle"> Studio</span>
         </NavbarBrand>
 
@@ -37,7 +37,7 @@ export const Navigation = () => {
           ></div>
         </button>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="p-3 ml-auto" navbar>
+          <Nav className="p-2 ml-auto" navbar>
             <NavItem className="nav-item">
               <NavLink href="/" className="m-2 menu-item">
                 Home
@@ -65,7 +65,7 @@ export const Navigation = () => {
             </NavItem>
             <NavItem className="nav-item">
               <NavLink href="#membership" className="m-2 menu-item">
-                Join Us
+                Join
               </NavLink>
             </NavItem>
             <NavItem className="nav-item">

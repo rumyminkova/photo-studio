@@ -25,9 +25,10 @@
   font-size: 1.3rem;
   font-weight: bold;
   border: none;
+  box-shadow: var(--button-shadow);
 }
 
 .card-button:hover {
   transform: translateY(-2px);
-  box-shadow: var(--button-shadow);
+ 
 }

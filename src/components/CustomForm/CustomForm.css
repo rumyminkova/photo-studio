@@ -23,7 +23,7 @@
 }
 .input-section label {
   position: absolute;
-  bottom: 0px;
+  bottom: 0%;
   left: 0%;
   width: 100%;
   height: 100%;
@@ -52,7 +52,7 @@
 
 .input-section input:focus + .label-name .content-name,
 .input-section input:valid + .label-name .content-name {
-  transform: translateY(-150%);
+  transform: translateY(-140%);
   font-size: 1.5rem;
   color: var(--color-primary);
 }
@@ -70,9 +70,10 @@
   font-size: 1.3rem;
   font-weight: bold;
   border: none;
+  box-shadow: var(--button-shadow);
 }
 
 .submit-button:hover {
   transform: translateY(-2px);
-  box-shadow: var(--button-shadow);
+ 
 }

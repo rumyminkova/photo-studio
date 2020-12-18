@@ -44,65 +44,6 @@ p {
   font-size: 2rem;
 }
 
-.nav-menu {
-  background: linear-gradient(rgba(11, 27, 37, 0.5), rgba(11, 27, 37, 0.8));
-  padding: 30px;
-  transition: all 0.7s;
-}
-
-.menu-item {
-  font-size: 1.5rem;
-  font-weight: 350;
-  color: #eee;
-  transition: color 0.5s;
-  text-transform: uppercase;
-}
-
-.menu-item:hover {
-  color: var(--color-primary);
-}
-
-.nav-active {
-  color: var(--color-primary);
-}
-
-.line1,
-.line2,
-.line3 {
-  width: 23px;
-  height: 3px;
-  margin: 5px;
-  transition: all 0.4s;
-}
-
-.change-line1 {
-  width: 23px;
-  height: 3px;
-  margin: 5px;
-  transition: all 0.4s;
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.change-line2 {
-  width: 23px;
-  height: 3px;
-  margin: 5px;
-  transition: all 0.4s;
-  opacity: 0;
-}
-
-.change-line3 {
-  width: 23px;
-  height: 3px;
-  margin: 5px;
-  transition: all 0.4s;
-  transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.custom-navbar {
-  padding: 5px 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
-}
 
 .mission,
 .customers,
