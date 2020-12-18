@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="container-fluid">
         <div className="row mt-5">
           <div className="col-12 col-md-5 pb-4">
-            <p className="display-4 mb-5 text-muted">Got Question?</p>
+            <p className="display-5 mb-5 text-muted">Got Question?</p>
             <CustomForm />
           </div>
 
