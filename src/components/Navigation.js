@@ -37,7 +37,7 @@ export const Navigation = () => {
           ></div>
         </button>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="p-2 ml-auto" navbar>
+          <Nav className="p-1 ml-auto" navbar>
             <NavItem className="nav-item">
               <NavLink href="/" className="m-2 menu-item">
                 Home

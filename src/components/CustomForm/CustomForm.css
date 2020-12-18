@@ -14,8 +14,8 @@
 .input-section input {
   height: 100%;
   width: 100%;
-  padding-top: 3.1rem;
-  padding-bottom: 7px;
+  padding-top: 3.7rem;
+  padding-bottom: 0.7rem;
   border: none;
   outline: none;
   background: var(--color-secondary);
@@ -45,7 +45,7 @@
 
 .content-name {
   position: absolute;
-  bottom: 4px;
+  bottom: 0.3rem;
   left: 0px;
   transition: all 0.3s ease;
 }
@@ -75,5 +75,4 @@
 
 .submit-button:hover {
   transform: translateY(-2px);
- 
 }

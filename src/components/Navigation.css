@@ -1,6 +1,6 @@
 .nav-menu {
   background: linear-gradient(rgba(11, 27, 37, 0.5), rgba(11, 27, 37, 0.8));
-  padding: 30px;
+  padding: 1rem;
   transition: all 0.7s;
 }
 
@@ -51,11 +51,6 @@
   margin: 5px;
   transition: all 0.4s;
   transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.custom-navbar {
-  padding: 5px 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
 }
 
 .studio-title-nav {

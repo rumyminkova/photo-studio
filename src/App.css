@@ -36,14 +36,13 @@ html {
   /* 1rem=10px 10px/16px(default)=0.625 = 62.5% */
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 1.7;
 }
 
 p {
   font-size: 2rem;
 }
-
 
 .mission,
 .customers,
