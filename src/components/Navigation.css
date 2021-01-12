@@ -27,6 +27,7 @@
   height: 3px;
   margin: 5px;
   transition: all 0.4s;
+  background-color: var(--color-primary);
 }
 
 .change-line1 {
@@ -35,6 +36,7 @@
   margin: 5px;
   transition: all 0.4s;
   transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: var(--color-primary);
 }
 
 .change-line2 {
@@ -51,10 +53,17 @@
   margin: 5px;
   transition: all 0.4s;
   transform: rotate(45deg) translate(-5px, -6px);
+  background-color: var(--color-primary);
 }
 
 .studio-title-nav {
   font-family: "Allura", cursive;
   font-size: 3rem;
   color: var(--color-primary);
+}
+
+.nav-button,
+.nav-button:focus {
+  outline: none;
+  border: none;
 }

@@ -26,15 +26,9 @@ export const Navigation = () => {
           type="button"
           onClick={toggle}
         >
-          <div
-            className={!isOpen ? "bg-light line1" : "bg-light change-line1"}
-          ></div>
-          <div
-            className={!isOpen ? "bg-light line2" : "bg-light change-line2"}
-          ></div>
-          <div
-            className={!isOpen ? "bg-light line3" : "bg-light change-line3"}
-          ></div>
+          <div className={!isOpen ? "line1" : "change-line1"}></div>
+          <div className={!isOpen ? "line2" : "change-line2"}></div>
+          <div className={!isOpen ? "line3" : "change-line3"}></div>
         </button>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="p-1 ml-auto" navbar>
