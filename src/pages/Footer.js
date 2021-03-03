@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <footer className="footer-container px-5">
       <div className="container-fluid">
-    
         <div className="row text-light py-4">
           <div className="col-lg-4 col-sm-6">
             <h4 className="pb-2">About Us</h4>
