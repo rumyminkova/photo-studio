@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HashLoader from "react-spinners/HashLoader";
 
 import "./App.css";
 import HomePage from "./pages/HomePage";
@@ -11,19 +12,37 @@ import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Navigation from "./components/Navigation";
 
+
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
+
   return (
-    <div className="App">
-      <Navigation />
-      <HomePage />
-      <Mission />
-      <PhotoCollection />
-      <Gallery />
-      <Customers />
-      <Membership />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      {loading ? (
+        <div className="loader">
+          <HashLoader loading={loading} size={100} color={"#bb8e12"} />
+        </div>
+      ) : (
+        <>
+          <Navigation />
+          <HomePage />
+          <Mission />
+          <PhotoCollection />
+          <Gallery />
+          <Customers />
+          <Membership />
+          <Contact />
+          <Footer />
+        </>
+      )}
+    </>
   );
 }
 

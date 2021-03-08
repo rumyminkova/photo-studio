@@ -15,11 +15,11 @@ const Gallery = () => {
           <div class="d-flex flex-wrap justify-content-center">
             {GALLERY_ITEMS.map((item) => (
               <div>
-                {" "}
                 <img
                   src={item.image}
                   width="300"
                   className="gallery-image p-2"
+                  alt="Gallery"
                 />
               </div>
             ))}
