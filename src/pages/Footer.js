@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
         <div className="row">
           <div className="col text-center border-top pt-1">
-            <p className="footer-small-text">&copy; 2020, Rumyana Rupetsova</p>
+            <p className="footer-small-text">&copy; 2020, Rumyana Dimitrieva</p>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div className="home-page">
+    <div className="home-page" id="home">
       <div className="text-light text-md-right text-center banner">
         <h1 className="display-2 banner-heading">
           Welcome to <span className="studio-title"> PhotoArt </span>

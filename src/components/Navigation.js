@@ -7,11 +7,20 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+
+import { MAINMENU_ITEMS } from "../data/data";
 import "./Navigation.css";
+
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const handleCollapse = () => {
+    if (isOpen) {
+      setIsOpen(false);
+    }
+  };
 
   return (
     <div>
@@ -32,41 +41,17 @@ export const Navigation = () => {
         </button>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="p-1 ml-auto" navbar>
-            <NavItem className="nav-item">
-              <NavLink href="/" className="m-2 menu-item">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#mission" className="m-2 menu-item">
-                Mission
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#collection" className="m-2 menu-item">
-                Collection
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#gallery" className="m-2 menu-item">
-                Gallery
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#customers" className="m-2 menu-item">
-                Customers
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#membership" className="m-2 menu-item">
-                Join
-              </NavLink>
-            </NavItem>
-            <NavItem className="nav-item">
-              <NavLink href="#contact" className="m-2 menu-item">
-                Contact
-              </NavLink>
-            </NavItem>
+            {MAINMENU_ITEMS.map((item) => (
+              <NavItem className="nav-item" key={item.id}>
+                <NavLink
+                  href={item.href}
+                  className="m-2 menu-item"
+                  onClick={handleCollapse}
+                >
+                  {item.title}
+                </NavLink>
+              </NavItem>
+            ))}
           </Nav>
         </Collapse>
       </Navbar>

@@ -7,7 +7,7 @@ const PhotoCollection = () => {
   return (
     <section class="collection-color py-4" id="collection">
       <SectionTitle
-        titleName="Collection"
+        titleName="Services"
         text="We are a full service photography studio"
         textColor="dark"
       />

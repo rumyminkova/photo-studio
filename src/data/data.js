@@ -79,3 +79,14 @@ export const MEMBERSHIP_ITEMS = [
     ],
   },
 ];
+
+export const MAINMENU_ITEMS = [
+  { id: 1, href: "#home", title: "Home" },
+  { id: 2, href: "#mission", title: "Mission" },
+  { id: 3, href: "#collection", title: "Services" },
+  { id: 4, href: "#gallery", title: "Gallery" },
+  { id: 5, href: "#customers", title: "Customers" },
+  { id: 6, href: "#membership", title: "Membership" },
+  { id: 7, href: "#membership", title: "Membership" },
+  { id: 8, href: "#contact", title: "Contact" },
+];
